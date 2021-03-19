@@ -1,0 +1,193 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Dec  4 11:17:54 2020
+# Process ID: 10968
+# Current directory: C:/Users/611B/Desktop/1/project_2014
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5580 C:\Users\611B\Desktop\1\project_2014\project_2014.xpr
+# Log file: C:/Users/611B/Desktop/1/project_2014/vivado.log
+# Journal file: C:/Users/611B/Desktop/1/project_2014\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/611B/Desktop/1/project_2014/project_2014.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+run 1000 us
+close_sim
+update_files -from_files C:/Users/611B/Desktop/1/STI_DAC.v -to_files C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v -filesets [get_filesets *]
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+update_files -from_files C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v -to_files C:/Users/611B/Desktop/1/STI_DAC.v -filesets [get_filesets *]
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+update_files -from_files C:/Users/611B/Desktop/1/STI_DAC.v -to_files C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v -filesets [get_filesets *]
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+run 1000 us
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+close_sim
+launch_simulation
+source testfixture1.tcl
+run 1000 us
+close_sim
+launch_simulation
+source testfixture1.tcl
+relaunch_sim
+relaunch_sim
+add_bp {C:/Users/611B/Desktop/1/STI_DAC.v} 75
+remove_bps -file {C:/Users/611B/Desktop/1/STI_DAC.v} -line 75
+relaunch_sim
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+source testfixture1.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+close_design
+open_run impl_1
+open_run synth_1 -name synth_1
+close_design
+close_design
+close_sim
+launch_simulation
+source testfixture1.tcl
+run 1000 us
+close_sim
+launch_simulation
+source testfixture1.tcl
+relaunch_sim
+relaunch_sim
+run 1000 us
+relaunch_sim
+run 10 us
+run 10 us
+run 100 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source testfixture1.tcl
+relaunch_sim
+run 100 us
+relaunch_sim
+run 100 us
+relaunch_sim
+run 50 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 50 us
+run 50 us
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source testfixture1.tcl
+relaunch_sim
+run 50 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 50 us
+relaunch_sim
+relaunch_sim
+run 50 us
+close_sim

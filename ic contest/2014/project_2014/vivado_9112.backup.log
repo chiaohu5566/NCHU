@@ -1,0 +1,1110 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec  2 11:39:50 2020
+# Process ID: 9112
+# Current directory: C:/Users/611B/Desktop/1/project_2014
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6792 C:\Users\611B\Desktop\1\project_2014\project_2014.xpr
+# Log file: C:/Users/611B/Desktop/1/project_2014/vivado.log
+# Journal file: C:/Users/611B/Desktop/1/project_2014\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/611B/Desktop/1/project_2014/project_2014.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+ERROR: [VRFC 10-4982] syntax error near 'input' [C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v:9]
+ERROR: [VRFC 10-2790] Verilog 2000 keyword input used in incorrect context [C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v:9]
+ERROR: [VRFC 10-2989] 'load' is not declared [C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v:1]
+ERROR: [VRFC 10-2989] 'load' is not declared [C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v:26]
+ERROR: [VRFC 10-2989] 'load' is not declared [C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v:30]
+ERROR: [VRFC 10-2989] 'load' is not declared [C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v:31]
+ERROR: [VRFC 10-2865] module 'STI_DAC' ignored due to previous errors [C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v:1]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+ERROR: [VRFC 10-3594] non-net port 'load' cannot be of mode input [C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v:8]
+ERROR: [VRFC 10-2865] module 'STI_DAC' ignored due to previous errors [C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v:1]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+ERROR: [XSIM 43-4287] "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" Line 124. Undefined system task '$fsdbDumpfile'
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+ERROR: [XSIM 43-4287] "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" Line 124. Undefined system task '$fsdbDumpfile'
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim/xsim.dir/testfixture1_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim/xsim.dir/testfixture1_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Dec  2 13:17:49 2020. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Dec  2 13:17:49 2020...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 903.539 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 903.539 ; gain = 0.000
+run 10 us
+run 500 us
+================================================================================================================
+--------------------------- (/`n`)/ ~#  There was something wrong with your code !! ---------------------------
+--------------------------- The simulation can't finished!!, Please check it !!! ---------------------------
+================================================================================================================
+$finish called at time : 100 us : File "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" Line 206
+run 500 us
+run 500 us
+run 10000 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 903.539 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/611B/Desktop/1/project_2014/project_2014.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testfixture1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testfixture1_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/611B/Desktop/1/2014ic/2014/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+"xelab -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ab55a41de5504389a999b68dfc7c4cf3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/611B/Desktop/1/2014ic/2014/STI_DAC.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/611B/Desktop/1/project_2014/project_2014.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testfixture1_behav -key {Behavioral:sim_1:Functional:testfixture1} -tclbatch {testfixture1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source testfixture1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testfixture1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  3 11:04:19 2020...
