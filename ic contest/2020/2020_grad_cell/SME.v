@@ -9,8 +9,6 @@ output [4:0] match_index;
 output valid;
 output c_state, n_state;
 
-
-
 //=================================================
 
 reg match;
