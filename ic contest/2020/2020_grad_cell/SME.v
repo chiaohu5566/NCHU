@@ -65,7 +65,6 @@ always @(*) begin
 			end  
 			else n_state <= COMP;
 	    end 
-
 		default : n_state <= IDLE;
   	endcase	
 end
