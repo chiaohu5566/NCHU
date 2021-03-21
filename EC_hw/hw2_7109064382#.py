@@ -32,12 +32,12 @@ def main(argv=None):
 		#-----------------------------------
 		#
 		#
-        class Out():
-            def __init__(self,Params,Types):
-                self.Params=[]
-                self.Types=[]
-        
-        a=Out()
+		# 
+		class Out():
+			pass
+		a=Out()
+		a.missingParams=[]
+		a.incorrectTypes=[]
 		# read file
 		i=open(options.inputFileName, 'r')
 		yml=yaml.full_load(i)
@@ -65,25 +65,23 @@ def main(argv=None):
 
 		#verify input config
 		#
-
 		for verify in val:
 			if verify in ec_cfg:
 				verify_t=ec_cfg[verify]
 				if type(verify_t) != val[verify][0]:
-					a.Types.append(verify)
+					a.incorrectTypes.append(verify)
 			else:			
 				if val[verify][1]:
-					a.Params.append(verify)
+					a.missingParams.append(verify)
 
 		#sorted
-		#a['incorrectTypes'].sort()
-		#a['missingParams'].sort()
-
+		a.incorrectTypes.sort()
+		a.missingParams.sort()
 
 		#------------write to outputfile (yaml)-------------
-		with yaml.dump(open(options.outputFileName,'w')) as f
-            f.write('missingParams:',self.Params)
-            f.write('missingParams:',self.Types)
+		yaml.dump(a.__dict__,open(options.outputFileName,'w'))
+#            f.write('missingParams:',self.Params)
+#            f.write('missingParams:',self.Types)
         #---------------------------------------------------            
 		if not options.quietMode :                    
 			print('Main Completed!')    

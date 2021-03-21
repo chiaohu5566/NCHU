@@ -1,0 +1,6 @@
+EC_Engine:
+  generationCount: 50     #[mandatory parameter, type int]
+  randomSeed: 10          #[optional parameter, type int]
+  evaluatorType: parabola #[mandatory parameter, type string]
+  jobName: test           #[optional parameter, type string]
+  scalingParam: 2.5       #[optional parameter, type float]
