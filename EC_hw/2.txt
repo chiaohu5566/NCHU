@@ -1,6 +1,3 @@
-incorrectTypes:
-- generationCount
-- randomSeed
+incorrectTypes: []
 missingParams:
-- evaluatorType
 - populationSize

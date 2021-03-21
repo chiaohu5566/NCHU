@@ -26,18 +26,18 @@ def main(argv=None):
 
 
         #do something here...        
-		#----------output content-----------
-		#a={'missingParams':[],
-		#  'incorrectTypes':[]}	
-		#-----------------------------------
-		#
-		#
-		# 
+		#---------------------------------
+		#--------------class--------------
+		#---------------------------------
 		class Out():
 			pass
 		a=Out()
 		a.missingParams=[]
 		a.incorrectTypes=[]
+		#---------------------------------
+		#---------------------------------
+		#
+		#
 		# read file
 		i=open(options.inputFileName, 'r')
 		yml=yaml.full_load(i)
@@ -80,8 +80,6 @@ def main(argv=None):
 
 		#------------write to outputfile (yaml)-------------
 		yaml.dump(a.__dict__,open(options.outputFileName,'w'))
-#            f.write('missingParams:',self.Params)
-#            f.write('missingParams:',self.Types)
         #---------------------------------------------------            
 		if not options.quietMode :                    
 			print('Main Completed!')    
