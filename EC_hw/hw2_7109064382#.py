@@ -80,7 +80,7 @@ def main(argv=None):
 
 		#------------write to outputfile (yaml)-------------
 		yaml.dump(a.__dict__,open(options.outputFileName,'w'))
-        #---------------------------------------------------            
+		#---------------------------------------------------            
 		if not options.quietMode :                    
 			print('Main Completed!')    
     		
