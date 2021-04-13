@@ -21,7 +21,6 @@ reg [1:0] c;
 parameter  LOAD = 2'b00,
            SORT = 2'b01,
            OPT  = 2'b10,
-           DONE = 2'b11;
 //==============FSM==============
 always @(posedge clk or posedge reset)begin
   if (reset)  c_state <= LOAD;
@@ -43,7 +42,7 @@ always @(*) begin
     else n_state = OPT;
   end
 
-//  default : 
+  default : n_state = 0;
   endcase
 end 
 //=======================LOAD==========================
@@ -61,29 +60,28 @@ always @(posedge clk)begin
     else  l_done <= 1;
 end    
   
-always @(posedge clk)begin     //load data
+
+//-----------------vector--------------------
+
+wire  [20:0] c12 = ((x[1] - x[0])*(y[2] - y[0])) - ((x[2] - x[0])*(y[1] - y[0]));
+wire  [20:0] c23 = ((x[2] - x[0])*(y[3] - y[0])) - ((x[3] - x[0])*(y[2] - y[0]));
+wire  [20:0] c34 = ((x[3] - x[0])*(y[4] - y[0])) - ((x[4] - x[0])*(y[3] - y[0]));
+wire  [20:0] c45 = ((x[4] - x[0])*(y[5] - y[0])) - ((x[5] - x[0])*(y[4] - y[0]));
+wire c1, c2, c3, c4;
+
+assign c1 = (c12[20]) ? 1 : 0 ;
+assign c2 = (c23[20]) ? 1 : 0 ;
+assign c3 = (c34[20]) ? 1 : 0 ;
+assign c4 = (c45[20]) ? 1 : 0 ;
+
+//=======================SORT==========================
+always @(posedge clk)begin
   if (c_state == LOAD)begin
     x[count] <= X;
     y[count] <= Y;
     r[count] <= R;
   end
-end
-//-----------------vector--------------------
-
-wire  [19:0] c12 = ((x[1] - x[0])*(y[2] - y[0])) - ((x[2] - x[0])*(y[1] - y[0]));
-wire  [19:0] c23 = ((x[2] - x[0])*(y[3] - y[0])) - ((x[3] - x[0])*(y[2] - y[0]));
-wire  [19:0] c34 = ((x[3] - x[0])*(y[4] - y[0])) - ((x[4] - x[0])*(y[3] - y[0]));
-wire  [19:0] c45 = ((x[4] - x[0])*(y[5] - y[0])) - ((x[5] - x[0])*(y[4] - y[0]));
-wire c1, c2, c3, c4;
-
-assign c1 = (c12[19]) ? 1 : 0 ;
-assign c2 = (c23[19]) ? 1 : 0 ;
-assign c3 = (c34[19]) ? 1 : 0 ;
-assign c4 = (c45[19]) ? 1 : 0 ;
-
-//=======================SORT==========================
-always @(posedge clk)begin
-  if (c_state == SORT)begin
+  else if (c_state == SORT)begin
     case (c)
       2'b00 : begin
         if (c1) begin
