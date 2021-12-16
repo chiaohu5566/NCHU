@@ -1,0 +1,19 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+--------------------------- Simulation Pattern is ready !!---------------------------
+--------------------------- [ testfuxture1.v ] Simulation START !!---------------------------
+--------------------------- Simulation at parallel data input stage !!---------------------------
+--------------------------- Simulation at serial data output and result verify !! ---------------------------
+--------------------------- so_data simulation FINISH !!---------------------------
+============================================================================
+
+ \(^o^)/  The simulation result of so_data is PASS!!!
+
+============================================================================
+--------------------------- OM-memory and EM-memory simulation FINISH !!---------------------------
+============================================================================
+
+ \(^o^)/  The simulation result of OM-memory and EM-memory is PASS!!!
+
+============================================================================
+$finish called at time : 23497500 ps : File "C:/Users/peiyun/Desktop/RTL_grad_Exercise/testfixture1.v" Line 196

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/peiyun/Desktop/RTL_grad_Exercise/STI_DAC_v1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STI_DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/peiyun/Desktop/RTL_grad_Exercise/testfixture1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testfixture1

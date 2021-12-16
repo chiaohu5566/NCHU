@@ -1,0 +1,14 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 8eb8b49aa77a4c578b625d343672e885 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testfixture1_behav xil_defaultlib.testfixture1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/peiyun/Desktop/RTL_grad_Exercise/STI_DAC_v1.v" Line 1. Module STI_DAC doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.STI_DAC
+Compiling module xil_defaultlib.testfixture1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testfixture1_behav
